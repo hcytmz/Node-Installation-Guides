@@ -35,3 +35,38 @@ wget -O monitor.sh https://github.com/hcytmz/Testnet-Guides/blob/main/Wormholes/
 <h3>Upgrade the process of node</h3>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4>View Node Connection Status</h4>
+```
+curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"net_peerCount","id":1}' http://127.0.0.1:8545
+```
+<h4>Checkout Blocks</h4>
+```
+curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}' http://127.0.0.1:8545
+```
+<h4>Check Account Balance</h4>
+# The parameters in params are account and block height, replace the first parameter with the account you want to query
+```
+curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["0xE860DD0F14e7a52Fa3012BfA00f4793edCe87EBe","pending"],"id":1}' http://127.0.0.1:8545
+```
+<h4>Checkout The version</h4>
+```
+curl -X POST -H "Content-Type:application/json" --data '{"jsonrpc":"2.0","method":"eth_version","id":64}' http://127.0.0.1:8545
+```
+

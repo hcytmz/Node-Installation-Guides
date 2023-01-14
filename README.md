@@ -5,7 +5,7 @@
 	</p>
 
 <p align="center">
-You can reach me with <a href="https://discord.com/users/401788522765484043" target="_blank">Discord</a> / <a href="https://t.me/haciyatmaz" target="_blank">Telegram</a>  ·  <a href="https://github.com/hcytmz/Testnet-Guides/issues">Report Bug / Request Feature</a>   
+You can reach me with <a href="https://discord.com/users/401788522765484043" target="_blank" rel="noopener noreferrer">Discord</a> / <a href="https://t.me/haciyatmaz" target="_blank" rel="noopener noreferrer">Telegram</a>  ·  <a href="https://github.com/hcytmz/Testnet-Guides/issues">Report Bug / Request Feature</a>   
 	</p>
 
 

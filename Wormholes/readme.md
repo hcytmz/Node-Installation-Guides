@@ -1,3 +1,5 @@
+<img height="200" height="auto" src="[https://avatars.githubusercontent.com/u/35812219](https://user-images.githubusercontent.com/35812219/212487868-dc3eda2a-892c-4d26-9c94-f2eec7ec70e4.png)"></br>
+
 # Wormholes Node Setup for Testnet
 
 
@@ -59,13 +61,13 @@ wget -O monitor.sh https://raw.githubusercontent.com/hcytmz/Testnet-Guides/main/
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"net_peerCount","id":1}' http://127.0.0.1:8545
 ```
 
-<h4>Checkout Blocks</h4>
+#### Checkout Blocks
 
 ```
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}' http://127.0.0.1:8545
 ```
 
-<h4>Check Account Balance</h4>
+#### Check Account Balance
 
 The parameters in params are account and block height, replace the first parameter with the account you want to query
 
@@ -73,7 +75,7 @@ The parameters in params are account and block height, replace the first paramet
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["Account Address","pending"],"id":1}' http://127.0.0.1:8545
 ```
 
-<h4>Checkout The version</h4>
+#### Checkout The version
 
 ```
 curl -X POST -H "Content-Type:application/json" --data '{"jsonrpc":"2.0","method":"eth_version","id":64}' http://127.0.0.1:8545

@@ -1,4 +1,4 @@
-<h1 align="center">Testnet Guides by haciyatmaz 👋</h1>
+<h1 align="center">Testnet Guides by haciyatmaz :vulcan_salute:</h1>
 <p align="center">
 	<img height="200" height="auto" src="https://avatars.githubusercontent.com/u/35812219"></br>
 <h3 align="center">In this repository, we will post guides on installing nodes for various projects.</h3></br>

@@ -9,18 +9,17 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
 	</p>
 
 
-<!--- 
 <h2 align="left" id="list-testnets"> 🌐 List of testnets</h2>
 
 <table width='100%'>
   <tr>
     <td align="center" width="96">
       <a href="#debabin-stack">
-        <img src="https://user-images.githubusercontent.com/79756157/205507528-262d9736-8442-4641-be99-da873335c727.jpg" width="45" height="45" alt="JavaScript" />
+        <img src="https://user-images.githubusercontent.com/35812219/212487868-dc3eda2a-892c-4d26-9c94-f2eec7ec70e4.png" width="45" height="45" alt="JavaScript" />
       </a>
-      <br>Axelar
+      <br>Wormholes
     </td>
    </tr>
 </table>
 <br>
---->
+

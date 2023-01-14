@@ -66,6 +66,8 @@ wget -O monitor.sh https://raw.githubusercontent.com/hcytmz/Testnet-Guides/main/
 ```bash
 docker restart wormholes
 ```
+8.  Now, you can [become a miner.](https://www.wormholes.com/docs/Install/stake/index.html)
+
 
 </br>
 

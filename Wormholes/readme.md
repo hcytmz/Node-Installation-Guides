@@ -1,3 +1,4 @@
+# Wormholes Node Setup for Testnet
 
 
 
@@ -11,28 +12,28 @@
 
 
 
-<h3>Process for deploying nodes for the first time</h3>
-1. Execute the following command to start launching the node.
+## Process for deploying nodes for the first time
+1.  Execute the following command to start launching the node.
 
 ```
 wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh && sudo bash wormholes_install.sh
 ```
 
-2. Enter the private key and press Enter.
+2.  Enter the private key and press Enter.
 ![image](https://user-images.githubusercontent.com/35812219/212482566-79c6bcad-a630-41fc-9b9a-14592c649f33.png)
 
-3. Conduct the command as follows, check whether the Wormholes container is normally running or not and if it Shows UP, which means yes.
+3.  Conduct the command as follows, check whether the Wormholes container is normally running or not and if it Shows UP, which means yes.
 ```
 sudo docker ps -a
 ```
-4. If you want to monitor node operation in real time, you can use the monitoring script.
+4.  If you want to monitor node operation in real time, you can use the monitoring script.
 ```
-wget -O monitor.sh https://github.com/hcytmz/Testnet-Guides/blob/main/Wormholes/monitor.sh && sudo bash monitor.sh
+wget -O monitor.sh https://raw.githubusercontent.com/hcytmz/Testnet-Guides/main/Wormholes/monitor.sh && sudo bash monitor.sh
 ```
 
 
 
-<h3>Upgrade the process of node</h3>
+## Upgrade the process of node
 
 
 
@@ -50,9 +51,9 @@ wget -O monitor.sh https://github.com/hcytmz/Testnet-Guides/blob/main/Wormholes/
 
 
 
+### ext
 
-
-<h4>View Node Connection Status</h4>
+#### View Node Connection Status
 
 ```
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"net_peerCount","id":1}' http://127.0.0.1:8545

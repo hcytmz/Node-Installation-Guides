@@ -14,7 +14,7 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
 <table width='100%'>
   <tr>
     <td align="center" width="96">
-      <a href="#debabin-stack">
+      <a href="./Wormholes">
         <img src="https://user-images.githubusercontent.com/35812219/212487868-dc3eda2a-892c-4d26-9c94-f2eec7ec70e4.png" width="45" height="45" alt="JavaScript" />
       </a>
       <br>Wormholes

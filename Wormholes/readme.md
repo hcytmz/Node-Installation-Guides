@@ -1,10 +1,15 @@
-<img height="200" height="auto" src="[https://avatars.githubusercontent.com/u/35812219](https://user-images.githubusercontent.com/35812219/212487868-dc3eda2a-892c-4d26-9c94-f2eec7ec70e4.png)"></br>
+<p align="center"> <img height="200" height="auto" src="https://user-images.githubusercontent.com/35812219/212487868-dc3eda2a-892c-4d26-9c94-f2eec7ec70e4.png"></p>
 
 # Wormholes Node Setup for Testnet
 
 
 
+## Official Links
+### [Official Document](https://wormholes.com/docs/install/index.html)
+### [Official Discord](https://discord.gg/VvXfCD2uSj)
 
+## Explorer
+### [Explorer]()
 
 
 

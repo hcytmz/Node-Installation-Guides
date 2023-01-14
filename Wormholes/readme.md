@@ -1,18 +1,15 @@
-<p align="center"> <img height="200" height="auto" src="https://user-images.githubusercontent.com/35812219/212487868-dc3eda2a-892c-4d26-9c94-f2eec7ec70e4.png"></p>
+# :red_square: Wormholes Node Setup for Testnet
+<p align="right"> <img height="100" height="auto" src="https://user-images.githubusercontent.com/35812219/212487868-dc3eda2a-892c-4d26-9c94-f2eec7ec70e4.png"></p>
 
-# Wormholes Node Setup for Testnet
-
-</br>
-
-## Official Links
-### [Official Document](https://wormholes.com/docs/install/index.html)
-### [Official Discord](https://discord.gg/VvXfCD2uSj)
-
-## Explorer
-### [Explorer]()
+## :yellow_square: Official Links & Explorer
+[Website](https://www.wormholes.com/) / 
+[Documents](https://wormholes.com/docs/install/index.html) / 
+[Discord](https://discord.gg/VvXfCD2uSj) / 
+[Telegram](https://t.me/wormholes_chain) / 
+[Explorer](https://www.wormholesscan.com)
 
 
-## Minimum Hardware requirements
+## :yellow_square: Minimum Hardware requirements
 | Node Type | CPU | RAM | Storage |
 | --- | --- | --- | --- |
 | Testnet | 2.9GHz, 4 cores | 8GB  | 500GB  |
@@ -23,7 +20,7 @@
 
 </br>
 
-## Process for deploying nodes for the first time
+### :green_square: Process for deploying nodes for the first time
 1.  Execute the following command to start launching the node.
 
 ```bash
@@ -44,7 +41,7 @@ wget -O monitor.sh https://raw.githubusercontent.com/hcytmz/Testnet-Guides/main/
 
 </br>
 
-## Upgrade the process of node
+### :green_square: Upgrade the process of node
 
 
 
@@ -62,27 +59,27 @@ wget -O monitor.sh https://raw.githubusercontent.com/hcytmz/Testnet-Guides/main/
 
 
 
-### ext
+### :green_square: ext
 </br>
 
 
-#### View Node Connection Status
+#### :blue_square: View Node Connection Status
 ```bash
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"net_peerCount","id":1}' http://127.0.0.1:8545
 ```
 
-#### Checkout Blocks
+#### :blue_square: Checkout Blocks
 ```bash
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}' http://127.0.0.1:8545
 ```
 
-#### Check Account Balance
+#### :blue_square: Check Account Balance
 The parameters in params are account and block height, replace the first parameter with the account you want to query
 ```bash
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["Account Address","pending"],"id":1}' http://127.0.0.1:8545
 ```
 
-#### Checkout The version
+#### :blue_square: Checkout The version
 ```bash
 curl -X POST -H "Content-Type:application/json" --data '{"jsonrpc":"2.0","method":"eth_version","id":64}' http://127.0.0.1:8545
 ```

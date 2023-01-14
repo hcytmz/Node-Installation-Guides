@@ -27,14 +27,7 @@ sudo docker ps -a
 ```
 4. If you want to monitor node operation in real time, you can use the monitoring script.
 ```
-nano monitor.sh
-```
-```
-wget -O monitor.sh https://docker.wormholes.com/wormholes_install.sh && sudo bash monitor.sh
-```
-
-```
-nano monitor.sh
+wget -O monitor.sh https://github.com/hcytmz/Testnet-Guides/blob/main/Wormholes/monitor.sh && sudo bash monitor.sh
 ```
 
 

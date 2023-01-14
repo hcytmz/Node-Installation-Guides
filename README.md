@@ -1,7 +1,7 @@
 <h1 align="center">Testnet Guides by haciyatmaz 👋</h1>
 <p align="center">
 	<img height="200" height="auto" src="https://avatars.githubusercontent.com/u/35812219"></br>
-	In this repository, we will post guides on installing nodes for various projects. </br>
+<h3 align="center">In this repository, we will post guides on installing nodes for various projects.</h3></br>
 	</p>
 
 <p align="center">

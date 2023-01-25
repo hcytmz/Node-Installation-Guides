@@ -13,11 +13,11 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
 <table width='100%'>
   <tr>
     <td align="center" width="100">
-      <a href="./Mars">
+      <a href="./Mars Protocol">
         <img src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/mars.svg" width="75" height="75" alt="JavaScript" />
       </a>
       <br>
-      <a href="./Mars"> Mars Protocol
+      <a href="./Mars Protocol"> Mars Protocol
       </a>
     </td>
     <td align="center" width="100">

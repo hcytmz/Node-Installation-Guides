@@ -1,8 +1,8 @@
-# :red_square: Mars Protocol Setup for Testnet
+# :red_square: Node Installation Guide for Mars Protocol 
 <p align="right"> <img height="150" height="auto" src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/mars.svg"></p>
 
 ## :yellow_square: Official Links & Explorer
-### :green_square: [:earth_africa:	Website](https://marsprotocol.io) / [:scroll:	Documents](https://validatordocs.marsprotocol.io/TfYZfjcaUzFmiAkWDf7P/infrastructure/validators/overview) / [:space_invader: Discord](https://discord.gg/marsprotocol) / [:large_blue_diamond:	Telegram](https://t.me/martiannews) / [:male_detective:	Explorer 1](https://testnet-explorer.marsprotocol.io) [2](https://mars.explorers.guru) [3](https://explorer.stavr.tech/mars-testnet) [4](https://explorer.bccnodes.com/mars) [5](https://explorer.ppnv.space/mars)
+### :green_square: [:earth_africa:	Website](https://marsprotocol.io) / [:scroll:	Documents](https://validatordocs.marsprotocol.io/TfYZfjcaUzFmiAkWDf7P/infrastructure/node-operators/setting-up-a-node) / [:space_invader: Discord](https://discord.gg/marsprotocol) / [:large_blue_diamond:	Telegram](https://t.me/martiannews) / [:male_detective:	Explorer 1](https://testnet-explorer.marsprotocol.io) [2](https://mars.explorers.guru) [3](https://explorer.stavr.tech/mars-testnet) [4](https://explorer.bccnodes.com/mars) [5](https://explorer.ppnv.space/mars)
 
 ### :blue_square:	[:fire:	My Node](https://testnet-explorer.marsprotocol.io/validators/marsvaloper122c858g0zn97px9xsqc7tn0v46dyjczzv22mgw)
 

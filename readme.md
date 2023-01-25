@@ -10,12 +10,19 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
 
 
 <h2 align="left" id="list-testnets"> :rocket: List of Testnet Guides</h2>
-
 <table width='100%'>
   <tr>
     <td align="center" width="100">
+      <a href="./Mars">
+        <img src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/mars.svg" width="75" height="75" alt="JavaScript" />
+      </a>
+      <br>
+      <a href="./Mars"> Mars Protocol
+      </a>
+    </td>
+    <td align="center" width="100">
       <a href="./Wormholes">
-        <img src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/wormholes.png" width="50" height="50" alt="JavaScript" />
+        <img src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/wormholes.png" width="75" height="75" alt="JavaScript" />
       </a>
       <br>
       <a href="./Wormholes"> Wormholes

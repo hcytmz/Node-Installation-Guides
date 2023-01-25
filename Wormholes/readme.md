@@ -1,5 +1,5 @@
 # :red_square: Wormholes Node Setup for Testnet
-<p align="right"> <img height="100" height="auto" src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/wormholes.png"></p>
+<p align="right"> <img height="150" height="auto" src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/wormholes.png"></p>
 
 ## :yellow_square: Official Links & Explorer
 ### :green_square: [:earth_africa:	Website](https://wormholes.com/) / [:scroll:	Documents](https://wormholes.com/docs/install/index.html) / [:space_invader: Discord](https://discord.gg/VvXfCD2uSj) / [:large_blue_diamond:	Telegram](https://t.me/wormholes_chain) / [:male_detective:	Explorer](https://wormholesscan.com)

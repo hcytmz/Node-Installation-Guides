@@ -14,7 +14,7 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
   <tr>
     <td align="center" width="100">
       <a href="./Mars Protocol">
-        <img src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/mars.svg" width="75" height="75" alt="JavaScript" />
+        <img src="./logos/mars.svg" width="75" height="75" alt="JavaScript" />
       </a>
       <br>
       <a href="./Mars Protocol"> Mars Protocol
@@ -22,7 +22,7 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
     </td>
     <td align="center" width="100">
       <a href="./Wormholes">
-        <img src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/wormholes.png" width="75" height="75" alt="JavaScript" />
+        <img src="./logos/wormholes.png" width="75" height="75" alt="JavaScript" />
       </a>
       <br>
       <a href="./Wormholes"> Wormholes

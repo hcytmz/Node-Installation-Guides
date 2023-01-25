@@ -1,4 +1,4 @@
-# :red_square: Wormholes Node Setup for Testnet
+# :red_square: Node Installation Guide for Wormholes Testnet
 <p align="right"> <img height="150" height="auto" src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/wormholes.png"></p>
 
 ## :yellow_square: Official Links & Explorer

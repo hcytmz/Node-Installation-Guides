@@ -1,11 +1,11 @@
-<h1 align="center">Testnet Guides by haciyatmaz :vulcan_salute:</h1>
+<h1 align="center">Node Installation Guides by haciyatmaz :vulcan_salute:</h1>
 <p align="center">
 	<img height="200" height="auto" src="https://avatars.githubusercontent.com/u/35812219"></br>
 <h3 align="center">In this repository, we will post guides on installing nodes for various projects.</h3></br>
 	</p>
 
 <p align="center">
-You can reach me with <a href="https://discord.com/users/401788522765484043">Discord</a> / <a href="https://t.me/haciyatmaz">Telegram</a>  ·  <a href="https://github.com/hcytmz/Testnet-Guides/issues">Report Bug / Request Feature</a>   
+You can reach me with <a href="https://discord.com/users/401788522765484043">Discord</a> / <a href="https://t.me/haciyatmaz">Telegram</a>  ·  <a href="https://github.com/hcytmz/Node-Installation-Guides/issues">Report Bug / Request Feature</a>   
 	</p>
 
 

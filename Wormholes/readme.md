@@ -2,15 +2,12 @@
 <p align="right"> <img height="100" height="auto" src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/wormholes.png"></p>
 
 ## :yellow_square: Official Links & Explorer
-[:earth_africa:	Website](https://www.wormholes.com/) / 
-[:scroll:	Documents](https://wormholes.com/docs/install/index.html) / 
-[:space_invader: Discord](https://discord.gg/VvXfCD2uSj) / 
-[:large_blue_diamond:	Telegram](https://t.me/wormholes_chain) / 
-[:male_detective:	Explorer](https://www.wormholesscan.com) / 
-[:fire:	My Node](https://www.wormholesscan.com/#/AccountDetail/0xc6bA63B5530726Ba7009Df3f382F41de4B902759)
+### :green_square: [:earth_africa:	Website](https://wormholes.com/) / [:scroll:	Documents](https://wormholes.com/docs/install/index.html) / [:space_invader: Discord](https://discord.gg/VvXfCD2uSj) / [:large_blue_diamond:	Telegram](https://t.me/wormholes_chain) / [:male_detective:	Explorer](https://wormholesscan.com)
+
+### :blue_square:	[:fire:	My Node](https://www.wormholesscan.com/#/AccountDetail/0xc6bA63B5530726Ba7009Df3f382F41de4B902759)
 
 
-## :yellow_square: Minimum Hardware requirements
+### :green_square: Minimum Hardware requirements
 | Node Type | CPU | RAM | Storage |
 | --- | --- | --- | --- |
 | Testnet | 2.9GHz, 4 cores | 8GB  | 500GB  |
@@ -21,7 +18,7 @@
 
 <br>
 
-### :green_square: Process for deploying nodes for the first time
+## :yellow_square: Process for deploying nodes for the first time
 1.  First of all you have to install the [limino wallet extension](https://chrome.google.com/webstore/detail/liminowallet/ljgaiedhmdfibdpilgpglddemlbedmhh) / [limino web wallet](https://www.limino.com/#/wallet) and get the private key.
 2.  Prepare the system to installation.
 
@@ -72,28 +69,28 @@ docker restart wormholes
 
 </br>
 
-### :green_square: [Upgrade the process of node](https://github.com/hcytmz/Testnet-Guides/blob/main/Wormholes/upgrade.md)
+## :yellow_square: [Upgrade the process of node](https://github.com/hcytmz/Testnet-Guides/blob/main/Wormholes/upgrade.md)
 
 </br>
 
-### :green_square: Useful Commands
-#### :blue_square: View Node Connection Status
+## :yellow_square: Useful Commands
+### :green_square: View Node Connection Status
 ```bash
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"net_peerCount","id":1}' http://127.0.0.1:8545
 ```
 
-#### :blue_square: Checkout Blocks
+### :green_square: Checkout Blocks
 ```bash
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}' http://127.0.0.1:8545
 ```
 
-#### :blue_square: Check Account Balance
+### :green_square: Check Account Balance
 The parameters in params are account and block height, replace the first parameter with the account you want to query
 ```bash
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["Account Address","pending"],"id":1}' http://127.0.0.1:8545
 ```
 
-#### :blue_square: Checkout The version
+### :green_square: Checkout The version
 ```bash
 curl -X POST -H "Content-Type:application/json" --data '{"jsonrpc":"2.0","method":"eth_version","id":64}' http://127.0.0.1:8545
 ```

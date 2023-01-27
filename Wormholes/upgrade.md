@@ -17,7 +17,7 @@ sudo docker ps -a
 ```
 5.  If you want to monitor node operation in real time, you can use the monitoring script.
 ```bash
-wget -O monitor.sh https://raw.githubusercontent.com/hcytmz/Testnet-Guides/main/Wormholes/monitor.sh && sudo bash monitor.sh
+wget -O monitor.sh https://raw.githubusercontent.com/hcytmz/Node-Installation-Guides/main/Wormholes/monitor.sh && sudo bash monitor.sh
 ```
 ![image](https://user-images.githubusercontent.com/35812219/212500614-f33a03eb-dccb-42ee-8932-5b4e1f849cca.png)
 

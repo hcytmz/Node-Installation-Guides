@@ -15,7 +15,7 @@ function info(){
             if [[ $wn != $wn1 ]];then
             echo -e "\033[31mThe network ID of the current node is inconsistent with that of the square node.\nPlease check and update your node. \033[0m"
             fi
-            rs=`curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blckNumber","id":64}' https://api.wormholestest.com 2>/dev/null`
+            rs=`curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":64}' https://api.wormholestest.com 2>/dev/null`
             blockNumbers=$(parse_json $rs "result")
             echo "Block height of the whole network: $((16#${blockNumbers:2}))"
             rs1=`curl -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"net_peerCount","id":64}' 127.0.0.1:$1 2>/dev/null`

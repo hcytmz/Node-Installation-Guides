@@ -3,6 +3,10 @@
 ```bash
 wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh && sudo bash wormholes_install.sh
 ```
+or
+```bash
+wget -O wormholes_install.sh https://github.com/hcytmz/Node-Installation-Guides/blob/main/Wormholes/wormholes_install.sh && sudo bash wormholes_install.sh
+```
 2.  When the figure is displayed below, the node has upgraded successfully.
 ![image](https://user-images.githubusercontent.com/35812219/212500761-cc29935d-5022-4367-8d87-2bfae8932bfc.png)
 

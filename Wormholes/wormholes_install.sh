@@ -5,7 +5,7 @@ which docker >/dev/null 2>&1
 if  [ $? -ne 0 ] ; then
         echo "docker not found, please install first!"
         echo "ubuntu:sudo apt install docker.io -y"
-        echo "centos:yum install  -y docker-ce "
+        echo "centos:yum install  -y docker-ce"
         echo "fedora:sudo dnf  install -y docker-ce"
         exit
 fi

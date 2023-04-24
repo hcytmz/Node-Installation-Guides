@@ -46,6 +46,10 @@ sudo systemctl enable --now docker
 ```bash
 wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh && sudo bash wormholes_install.sh
 ```
+or
+```bash
+wget -O wormholes_install.sh https://github.com/hcytmz/Node-Installation-Guides/blob/main/Wormholes/wormholes_install.sh && sudo bash wormholes_install.sh
+```
 
 4.  Enter the private key and press Enter.
 ![image](https://user-images.githubusercontent.com/35812219/212482566-79c6bcad-a630-41fc-9b9a-14592c649f33.png)

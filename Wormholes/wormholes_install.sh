@@ -101,7 +101,7 @@ else
         exit 1
 fi
 
-docker run -id -p 30303:30303 -p 8646:8646 -v /wm/.wormholes:/wm/.wormholes --name wormholes wormholestech/wormholes:v1
+docker run -id -p 30303:30303 -p 8545:8545 -v /wm/.wormholes:/wm/.wormholes --name wormholes wormholestech/wormholes:v1
 
 while true
 do

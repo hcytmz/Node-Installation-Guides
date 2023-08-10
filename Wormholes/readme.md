@@ -1,10 +1,10 @@
-# :red_square: Node Installation Guide for Wormholes Testnet
-<p align="right"> <img height="150" height="auto" src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/wormholes.png"></p>
+# :red_square: Node Installation Guide for Erbie Testnet
+<p align="right"> <img height="150" height="auto" src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/erbie.png"></p>
 
 ## :yellow_square: Official Links & Explorer
-### :green_square: [:earth_africa:	Website](https://wormholes.com/) / [:scroll:	Documents](https://wormholes.com/docs/install/index.html) / [:space_invader: Discord](https://discord.gg/VvXfCD2uSj) / [:large_blue_diamond:	Telegram](https://t.me/wormholes_chain) / [:male_detective:	Explorer](https://wormholesscan.com)
+### :green_square: [:earth_africa:	Website](https://erbie.com/) / [:scroll:	Documents](https://erbie.com/docs/install/index.html) / [:space_invader: Discord](https://discord.gg/VvXfCD2uSj) / [:large_blue_diamond:	Telegram](https://t.me/erbie_chain) / [:male_detective:	Explorer](https://erbiescan.com)
 
-### :blue_square:	[:fire:	My Node](https://www.wormholesscan.com/#/AccountDetail/0xc6bA63B5530726Ba7009Df3f382F41de4B902759)
+### :blue_square:	[:fire:	My Node](https://www.erbiescan.com/#/AccountDetail/0xc6bA63B5530726Ba7009Df3f382F41de4B902759)
 
 
 ### :green_square: Minimum Hardware requirements
@@ -44,36 +44,36 @@ sudo systemctl enable --now docker
 3.  Execute the following command to start launching the node.
 
 ```bash
-wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh && sudo bash wormholes_install.sh
+wget -O erbie_install.sh https://docker.erbie.com/erbie_install.sh && sudo bash erbie_install.sh
 ```
 or
 ```bash
-wget -O wormholes_install.sh https://github.com/hcytmz/Node-Installation-Guides/blob/main/Wormholes/wormholes_install.sh && sudo bash wormholes_install.sh
+wget -O erbie_install.sh https://github.com/hcytmz/Node-Installation-Guides/blob/main/Erbie/erbie_install.sh && sudo bash erbie_install.sh
 ```
 
 4.  Enter the private key and press Enter.
 ![image](https://user-images.githubusercontent.com/35812219/212482566-79c6bcad-a630-41fc-9b9a-14592c649f33.png)
 
-5.  Conduct the command as follows, check whether the Wormholes container is normally running or not and if it Shows UP, which means yes.
+5.  Conduct the command as follows, check whether the Erbie container is normally running or not and if it Shows UP, which means yes.
 ```bash
 sudo docker ps -a
 ```
 6.  If you want to monitor node operation in real time, you can use the monitoring script.
 ```bash
-wget -O monitor.sh https://raw.githubusercontent.com/hcytmz/Node-Installation-Guides/main/Wormholes/monitor.sh && sudo bash monitor.sh
+wget -O monitor.sh https://raw.githubusercontent.com/hcytmz/Node-Installation-Guides/main/Erbie/monitor.sh && sudo bash monitor.sh
 ```
 ![image](https://user-images.githubusercontent.com/35812219/212500614-f33a03eb-dccb-42ee-8932-5b4e1f849cca.png)
 
 7.  If you waited for a while and couldn't find a peer, execute the following command.
 ```bash
-docker restart wormholes
+docker restart erbie
 ```
-8.  Now, you can [become a miner.](https://www.wormholes.com/docs/Install/stake/index.html)
+8.  Now, you can [become a miner.](https://www.erbie.com/docs/Install/stake/index.html)
 
 
 </br>
 
-## :yellow_square: [Upgrade the process of node](https://github.com/hcytmz/Node-Installation-Guides/blob/main/Wormholes/upgrade.md)
+## :yellow_square: [Upgrade the process of node](https://github.com/hcytmz/Node-Installation-Guides/blob/main/Erbie/upgrade.md)
 
 </br>
 

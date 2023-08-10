@@ -21,11 +21,11 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
       </a>
     </td>
     <td align="center" width="100">
-      <a href="./Wormholes">
-        <img src="./logos/wormholes.png" width="75" height="75" alt="JavaScript" />
+      <a href="./Erbie">
+        <img src="./logos/erbie.png" width="75" height="75" alt="JavaScript" />
       </a>
       <br>
-      <a href="./Wormholes"> Wormholes
+      <a href="./Erbie"> Erbie
       </a>
     </td>
   </tr>

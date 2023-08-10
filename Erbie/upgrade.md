@@ -8,7 +8,7 @@ or
 wget -O erbie_install.sh https://github.com/hcytmz/Node-Installation-Guides/blob/main/Erbie/erbie_install.sh && sudo bash erbie_install.sh
 ```
 2.  When the figure is displayed below, the node has upgraded successfully.
-![image](https://user-images.githubusercontent.com/35812219/212500761-cc29935d-5022-4367-8d87-2bfae8932bfc.png)
+![image](https://github.com/hcytmz/Node-Installation-Guides/assets/35812219/a9dcff6d-67d8-4f26-91b0-7b059780b07d)
 
 3.  Checkout The version
 ```bash

@@ -1,7 +1,7 @@
 #!/bin/bash
 function info(){
    cn=0
-   vl=$(wget https://docker.wormholes.com/version>/dev/null 2>&1 && cat version|awk '{print $2}')
+   vl=$(wget https://docker.erbie.io/version>/dev/null 2>&1 && cat version|awk '{print $2}')
    while true
    do
             echo "the monitor version is $vl"

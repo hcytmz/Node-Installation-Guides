@@ -52,7 +52,7 @@ wget -O erbie_install.sh https://github.com/hcytmz/Node-Installation-Guides/blob
 ```
 
 4.  Enter the private key and press Enter.
-![image](https://user-images.githubusercontent.com/35812219/212482566-79c6bcad-a630-41fc-9b9a-14592c649f33.png)
+![image](https://github.com/hcytmz/Node-Installation-Guides/assets/35812219/df716b1f-3bec-47bf-be22-5bab607a830f)
 
 5.  Conduct the command as follows, check whether the Erbie container is normally running or not and if it Shows UP, which means yes.
 ```bash

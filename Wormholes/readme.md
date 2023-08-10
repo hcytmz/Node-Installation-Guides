@@ -2,7 +2,7 @@
 <p align="right"> <img height="150" height="auto" src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/erbie.png"></p>
 
 ## :yellow_square: Official Links & Explorer
-### :green_square: [:earth_africa:	Website](https://erbie.com/) / [:scroll:	Documents](https://erbie.com/docs/install/index.html) / [:space_invader: Discord](https://discord.gg/VvXfCD2uSj) / [:large_blue_diamond:	Telegram](https://t.me/erbie_chain) / [:male_detective:	Explorer](https://erbiescan.com)
+### :green_square: [:earth_africa:	Website](https://erbie.io/) / [:scroll:	Documents](https://erbie.io/docs/install/index.html) / [:space_invader: Discord](https://discord.gg/VvXfCD2uSj) / [:large_blue_diamond:	Telegram](https://t.me/erbie_chain) / [:male_detective:	Explorer](https://erbiescan.com)
 
 ### :blue_square:	[:fire:	My Node](https://www.erbiescan.com/#/AccountDetail/0xc6bA63B5530726Ba7009Df3f382F41de4B902759)
 
@@ -44,7 +44,7 @@ sudo systemctl enable --now docker
 3.  Execute the following command to start launching the node.
 
 ```bash
-wget -O erbie_install.sh https://docker.erbie.com/erbie_install.sh && sudo bash erbie_install.sh
+wget -O erbie_install.sh https://docker.erbie.io/erbie_install.sh && sudo bash erbie_install.sh
 ```
 or
 ```bash
@@ -68,7 +68,7 @@ wget -O monitor.sh https://raw.githubusercontent.com/hcytmz/Node-Installation-Gu
 ```bash
 docker restart erbie
 ```
-8.  Now, you can [become a miner.](https://www.erbie.com/docs/Install/stake/index.html)
+8.  Now, you can [become a miner.](https://www.erbie.io/docs/Install/stake/index.html)
 
 
 </br>

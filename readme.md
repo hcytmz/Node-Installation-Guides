@@ -11,6 +11,7 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
 
 <h2 align="left" id="list-testnets"> :rocket: List of Testnet Guides</h2>
 <table width='100%'>
+  <tr>
     <td align="center" width="100">
       <a href="./CrossFi">
         <img src="./logos/CrossFi.svg" width="75" height="75" alt="JavaScript" />
@@ -19,7 +20,6 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
       <a href="./CrossFi"> CrossFi
       </a>
     </td>
-  <tr>
     <td align="center" width="100">
       <a href="./Erbie">
         <img src="./logos/erbie.png" width="75" height="75" alt="JavaScript" />

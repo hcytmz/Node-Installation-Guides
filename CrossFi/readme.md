@@ -2,7 +2,7 @@
 <p align="right"> <img height="150" height="auto" src="https://github.com/hcytmz/Testnet-Guides/blob/main/logos/CrossFi.png"></p>
 
 ## :yellow_square: Official Links & Explorer
-### :green_square: [:earth_africa:	Website](https://crossfi.org/) / [:scroll:	Documents](https://crossfi.org/#journey/) / [:space_invader: Discord](https://discord.gg/crossfi) / [:large_blue_diamond:	Telegram](https://t.me/crossfichain) / [:male_detective:	Explorer](https://xfiscan.com/)
+### :green_square: [:earth_africa:	Website](https://crossfi.org/) / [:scroll:	Documents](https://docs.crossfi.org/crossfi-chain/) / [:space_invader: Discord](https://discord.gg/crossfi) / [:large_blue_diamond:	Telegram](https://t.me/crossfichain) / [:male_detective:	Explorer](https://xfiscan.com/)
 
 ### :blue_square:	[:fire:	My Node](https://test.xfiscan.com/validators/mxvaloper1p95xml0ck5xavdd0vh6pj6fs8xhnnlka240kpq)
 
@@ -10,7 +10,7 @@
 ### :green_square: Minimum Hardware requirements
 | Node Type | CPU | RAM | Storage |
 | --- | --- | --- | --- |
-| Testnet | 2.9GHz, 4 cores | 8GB  | 500GB  |
+| Testnet | 6 cores | 8GB | 400GB (NVME) |
 
 
 

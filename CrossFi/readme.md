@@ -29,7 +29,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y curl git jq lz4 build-essential
 ```
 
-2.  Install Go
+2.  Install Go, If Needed
 
 ```bash
 sudo rm -rf /usr/local/go
@@ -37,14 +37,60 @@ curl -L https://go.dev/dl/go1.21.6.linux-amd64.tar.gz | sudo tar -xzf - -C /usr/
 echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile
 source .bash_profile
 ```
+
+## :yellow_square: Execute the following command to install the node.
+
+
 ```bash
-sudo apt install docker.io
-```
-```bash
-sudo systemctl enable --now docker
+echo "export WALLET="wallet"" >> $HOME/.bash_profile
+echo "export MONIKER="haciyatmaz"" >> $HOME/.bash_profile
+echo "export CROSSFI_CHAIN_ID="crossfi-evm-testnet-1"" >> $HOME/.bash_profile
+echo "export CROSSFI_PORT="36"" >> $HOME/.bash_profile
+source $HOME/.bash_profile
+
 ```
 
-3.  Execute the following command to start launching the node.
+```bash
+
+
+```
+```bash
+
+
+```
+```bash
+
+
+```
+```bash
+
+
+```
+```bash
+
+
+```
+
+```bash
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```bash
 wget -O Cross Finance_install.sh https://docker.Cross Finance.io/Cross Finance_install.sh && sudo bash Cross Finance_install.sh
@@ -53,6 +99,41 @@ or
 ```bash
 wget -O Cross Finance_install.sh https://github.com/hcytmz/Node-Installation-Guides/blob/main/Cross Finance/Cross Finance_install.sh && sudo bash Cross Finance_install.sh
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 4.  Enter the private key and press Enter.
 ![image](https://github.com/hcytmz/Node-Installation-Guides/assets/35812219/df716b1f-3bec-47bf-be22-5bab607a830f)

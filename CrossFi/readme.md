@@ -126,20 +126,22 @@ LimitNOFILE=65535
 [Install]
 WantedBy=multi-user.target
 EOF
-sudo systemctl daemon-reload
-sudo systemctl enable crossfid.service
 ```
 
 11. Start the service and check the logs
 ```bash
-sudo systemctl start crossfid.service
-sudo journalctl -u crossfid.service -f --no-hostname -o cat
+sudo systemctl daemon-reload
+sudo systemctl enable crossfid
+sudo systemctl restart crossfid && sudo journalctl -u crossfid -f
 ```
 
 
 
 ## :yellow_square: Upgrade
-</br>
+```bash
+...
+```
+
 
 ## :yellow_square: Useful Commands
 ### :green_square: View Node Connection Status

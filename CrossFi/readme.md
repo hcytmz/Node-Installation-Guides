@@ -50,16 +50,19 @@ mv $HOME/bin/crossfid $HOME/go/bin
 rm -rf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz readme.md $HOME/bin
 ```
 
+
 2. Set node configuration
 ```bash
 crossfid config chain-id crossfi-evm-testnet-1
 crossfid config keyring-backend test
 ```
 
+
 3. Default Port (If you want to run multiple nodes on the server change Port (Exp. 26657 to 23857))
 ```bash
 crossfid config node tcp://localhost:26657
 ```
+
 
 4. Initialize the node (Replace YOUR_MONIKER with your Validator Name)
 ```bash
@@ -73,6 +76,7 @@ curl -L https://github.com/hcytmz/Node-Installation-Guides/blob/e2f8004bf7f14a05
 curl -L https://github.com/hcytmz/Node-Installation-Guides/blob/e2f8004bf7f14a05d66dd32446eec2b8186a2705/CrossFi/addrbook.json > $HOME/.mineplex-chain/config/addrbook.json
 ```
 
+
 6. Set seeds and peers
 ```bash
 SEEDS="89752fa7945a06e972d7d860222a5eeaeab5c357@128.140.70.97:26656,dd83e3c7c4e783f8a46dbb010ec8853135d29df0@crossfi-testnet-seed.itrocket.net:36656"
@@ -80,7 +84,8 @@ PEERS="66bdf53ec0c2ceeefd9a4c29d7f7926e136f114a@crossfi-testnet-peer.itrocket.ne
 sed -i -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.mineplex-chain/config/config.toml
 ```
 
-7. Config pruning (Optional)
+
+7. (Optional) Config pruning
 ```bash
 sed -i \
   -e 's|^pruning *=.*|pruning = "custom"|' \
@@ -88,106 +93,52 @@ sed -i \
   -e 's|^pruning-interval *=.*|pruning-interval = "17"|' \
   $HOME/.mineplex-chain/config/app.toml
 ```
-8. Set minimum gas price, enable prometheus and disable indexing (Optional)
+
+
+8. (Optional) Set minimum gas price, enable prometheus and disable indexing
 ```bash
 sed -i 's|minimum-gas-prices =.*|minimum-gas-prices = "10000000000000mpx"|g' $HOME/.mineplex-chain/config/app.toml
 sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.mineplex-chain/config/config.toml
 sed -i -e "s/^indexer *=.*/indexer = \"null\"/" $HOME/.mineplex-chain/config/config.toml
 ```
 
-9. Set custom ports (Optional)
+
+9. (Optional) Set custom ports
 ```bash
 sed -i -e "s%:1317%:23817%; s%:8080%:23880%; s%:9090%:23890%; s%:9091%:23891%; s%:8545%:23845%; s%:8546%:23846%; s%:6065%:23865%" $HOME/.mineplex-chain/config/app.toml
 sed -i -e "s%:26658%:23858%; s%:26657%:23857%; s%:6060%:23860%; s%:26656%:23856%; s%:26660%:23861%" $HOME/.mineplex-chain/config/config.toml
 ```
 
 
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+10. Create a service
 ```bash
-wget -O Cross Finance_install.sh https://docker.Cross Finance.io/Cross Finance_install.sh && sudo bash Cross Finance_install.sh
+sudo tee /etc/systemd/system/crossfid.service > /dev/null << EOF
+[Unit]
+Description=CrossFi service
+After=network-online.target
+[Service]
+User=$USER
+WorkingDirectory=$HOME/.mineplex-chain
+ExecStart=$(which crossfid) start
+Restart=on-failure
+RestartSec=10
+LimitNOFILE=65535
+[Install]
+WantedBy=multi-user.target
+EOF
+sudo systemctl daemon-reload
+sudo systemctl enable crossfid.service
 ```
-or
+
+11. Start the service and check the logs
 ```bash
-wget -O Cross Finance_install.sh https://github.com/hcytmz/Node-Installation-Guides/blob/main/Cross Finance/Cross Finance_install.sh && sudo bash Cross Finance_install.sh
+sudo systemctl start crossfid.service
+sudo journalctl -u crossfid.service -f --no-hostname -o cat
 ```
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4.  Enter the private key and press Enter.
-![image](https://github.com/hcytmz/Node-Installation-Guides/assets/35812219/df716b1f-3bec-47bf-be22-5bab607a830f)
-
-5.  Conduct the command as follows, check whether the Cross Finance container is normally running or not and if it Shows UP, which means yes.
-```bash
-sudo docker ps -a
-```
-6.  If you want to monitor node operation in real time, you can use the monitoring script.
-```bash
-wget -O monitor.sh https://raw.githubusercontent.com/hcytmz/Node-Installation-Guides/main/Cross Finance/monitor.sh && sudo bash monitor.sh
-```
-![image](https://user-images.githubusercontent.com/35812219/212500614-f33a03eb-dccb-42ee-8932-5b4e1f849cca.png)
-
-7.  If you waited for a while and couldn't find a peer, execute the following command.
-```bash
-docker restart Cross Finance
-```
-8.  Now, you can [become a miner.](https://www.Cross Finance.io/docs/Install/stake/index.html)
-
-
-</br>
-
-## :yellow_square: [Upgrade the process of node](https://github.com/hcytmz/Node-Installation-Guides/blob/main/Cross Finance/upgrade.md)
-
+## :yellow_square: Upgrade
 </br>
 
 ## :yellow_square: Useful Commands

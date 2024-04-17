@@ -19,7 +19,7 @@
 <br>
 
 ## :yellow_square: Process for deploying nodes for the first time
-1.  Prepare the system to installation.
+1. Prepare the system to installation.
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -29,7 +29,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -y
 ```
 
-2.  Install Go, If Needed
+2. Install Go, If Needed
 
 ```bash
 sudo rm -rf /usr/local/go
@@ -56,7 +56,7 @@ crossfid config chain-id crossfi-evm-testnet-1
 crossfid config keyring-backend test
 ```
 
-3. Change Port prefix (Exp. 26657 to 23857)
+3. Default Port (If you want to run multiple nodes on the server change Port (Exp. 26657 to 23857))
 ```bash
 crossfid config node tcp://localhost:26657
 ```
@@ -67,18 +67,20 @@ crossfid init "YOUR_MONIKER" --chain-id crossfi-evm-testnet-1
 ```
 
 
-
-
-
+5. Download genesis and addrbook
 ```bash
-
-
+curl -L https://github.com/hcytmz/Node-Installation-Guides/tree/main/CrossFi/genesis.json > $HOME/.mineplex-chain/config/genesis.json
+curl -L https://github.com/hcytmz/Node-Installation-Guides/tree/main/CrossFi/addrbook.json > $HOME/.mineplex-chain/config/addrbook.json
 ```
 
+6. Set seeds and peers
 ```bash
-
-
+SEEDS="89752fa7945a06e972d7d860222a5eeaeab5c357@128.140.70.97:26656,dd83e3c7c4e783f8a46dbb010ec8853135d29df0@crossfi-testnet-seed.itrocket.net:36656"
+PEERS="66bdf53ec0c2ceeefd9a4c29d7f7926e136f114a@crossfi-testnet-peer.itrocket.net:36656,2e6308d166b358b0b57f5dec6e0b8b57430ed898@65.109.30.35:36656,bbbd8200d83c407d51cfc70bef4c616db1abbaed@65.108.234.158:23656,01d2c34725b52d3d0022afd302ca5f5662d33655@185.177.116.79:26656,89752fa7945a06e972d7d860222a5eeaeab5c357@128.140.70.97:26656"
+sed -i -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.mineplex-chain/config/config.toml
 ```
+
+
 ```bash
 
 

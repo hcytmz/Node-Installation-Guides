@@ -80,15 +80,25 @@ PEERS="66bdf53ec0c2ceeefd9a4c29d7f7926e136f114a@crossfi-testnet-peer.itrocket.ne
 sed -i -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.mineplex-chain/config/config.toml
 ```
 
-
+7. Config pruning (Optional)
 ```bash
-
-
+sed -i \
+  -e 's|^pruning *=.*|pruning = "custom"|' \
+  -e 's|^pruning-keep-recent *=.*|pruning-keep-recent = "100"|' \
+  -e 's|^pruning-interval *=.*|pruning-interval = "17"|' \
+  $HOME/.mineplex-chain/config/app.toml
+```
+8. Set minimum gas price, enable prometheus and disable indexing (Optional)
+```bash
+sed -i 's|minimum-gas-prices =.*|minimum-gas-prices = "10000000000000mpx"|g' $HOME/.mineplex-chain/config/app.toml
+sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.mineplex-chain/config/config.toml
+sed -i -e "s/^indexer *=.*/indexer = \"null\"/" $HOME/.mineplex-chain/config/config.toml
 ```
 
+9. Set custom ports (Optional)
 ```bash
-
-
+sed -i -e "s%:1317%:23817%; s%:8080%:23880%; s%:9090%:23890%; s%:9091%:23891%; s%:8545%:23845%; s%:8546%:23846%; s%:6065%:23865%" $HOME/.mineplex-chain/config/app.toml
+sed -i -e "s%:26658%:23858%; s%:26657%:23857%; s%:6060%:23860%; s%:26656%:23856%; s%:26660%:23861%" $HOME/.mineplex-chain/config/config.toml
 ```
 
 

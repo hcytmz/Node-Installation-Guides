@@ -17,7 +17,7 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
         <img src="./logos/CrossFi.svg" width="75" height="75" alt="JavaScript" />
       </a>
       <br>
-      <a href="./CrossFi"> CrossFi
+      <a href="./CrossFi"> Cross Finance
       </a>
     </td>
     <td align="center" width="100">

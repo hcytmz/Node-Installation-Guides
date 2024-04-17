@@ -50,14 +50,18 @@ mv $HOME/bin/crossfid $HOME/go/bin
 rm -rf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz readme.md $HOME/bin
 ```
 
-2. Set node CLI configuration
+2. Set node configuration
 ```bash
 crossfid config chain-id crossfi-evm-testnet-1
 crossfid config keyring-backend test
-crossfid config node tcp://localhost:20157
 ```
 
-3. Initialize the node (Replace YOUR_MONIKER with your Validator Name)
+3. Change Port prefix (Exp. 26657 to 23857)
+```bash
+crossfid config node tcp://localhost:26657
+```
+
+4. Initialize the node (Replace YOUR_MONIKER with your Validator Name)
 ```bash
 crossfid init "YOUR_MONIKER" --chain-id crossfi-evm-testnet-1
 ```

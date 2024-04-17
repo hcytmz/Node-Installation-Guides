@@ -69,8 +69,8 @@ crossfid init "YOUR_MONIKER" --chain-id crossfi-evm-testnet-1
 
 5. Download genesis and addrbook
 ```bash
-curl -L https://github.com/hcytmz/Node-Installation-Guides/tree/main/CrossFi/genesis.json > $HOME/.mineplex-chain/config/genesis.json
-curl -L https://github.com/hcytmz/Node-Installation-Guides/tree/main/CrossFi/addrbook.json > $HOME/.mineplex-chain/config/addrbook.json
+curl -L https://github.com/hcytmz/Node-Installation-Guides/blob/e2f8004bf7f14a05d66dd32446eec2b8186a2705/CrossFi/genesis.json > $HOME/.mineplex-chain/config/genesis.json
+curl -L https://github.com/hcytmz/Node-Installation-Guides/blob/e2f8004bf7f14a05d66dd32446eec2b8186a2705/CrossFi/addrbook.json > $HOME/.mineplex-chain/config/addrbook.json
 ```
 
 6. Set seeds and peers

@@ -144,24 +144,33 @@ sudo systemctl restart crossfid && sudo journalctl -u crossfid -f
 
 
 ## :yellow_square: Useful Commands
-### :green_square: View Node Connection Status
+### :green_square: Key
+Recover Existing Key
 ```bash
-curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"net_peerCount","id":1}' http://127.0.0.1:8545
+crossfid keys add wallet --recover
 ```
+
+Query Wallet Balance
+```bash
+crossfid q bank balances $(crossfid keys show wallet -a)
+```
+
 
 ### :green_square: Checkout Blocks
 ```bash
-curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}' http://127.0.0.1:8545
+
 ```
 
 ### :green_square: Check Account Balance
 The parameters in params are account and block height, replace the first parameter with the account you want to query
 ```bash
-curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_getBalance","params":["Account Address","pending"],"id":1}' http://127.0.0.1:8545
+
 ```
+
 
 ### :green_square: Checkout The version
 ```bash
-curl -X POST -H "Content-Type:application/json" --data '{"jsonrpc":"2.0","method":"eth_version","id":64}' http://127.0.0.1:8545
+
 ```
+
 

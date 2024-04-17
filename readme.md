@@ -14,7 +14,7 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
   <tr>
     <td align="center" width="100">
       <a href="./CrossFi">
-        <img src="./logos/CrossFi.svg" width="100" height="100" alt="JavaScript" />
+        <img src="./logos/CrossFi.svg" width="100" height="100" alt="Cross Finance" />
       </a>
       <br>
       <a href="./CrossFi"> Cross Finance
@@ -22,7 +22,7 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
     </td>
     <td align="center" width="100">
       <a href="./Erbie">
-        <img src="./logos/erbie.png" width="100" height="100" alt="JavaScript" />
+        <img src="./logos/erbie.png" width="100" height="100" alt="Erbie" />
       </a>
       <br>
       <a href="./Erbie"> Erbie

@@ -12,25 +12,25 @@ You can reach me with <a href="https://discord.com/users/401788522765484043">Dis
 <h2 align="left" id="list-testnets"> :rocket: List of Testnet Guides</h2>
 <table width='100%'>
   <tr>
-    <td align="center" width="125">
+    <td align="center" width="100">
       <a href="./CrossFi">
-        <img src="./logos/CrossFi.png" width="100" height="100" alt="Cross Finance" />
+        <img src="./logos/CrossFi.png" width="80" height="80" alt="Cross Finance" />
       </a>
       <br>
       <a href="./CrossFi"> Cross Finance
       </a>
     </td>
-    <td align="center" width="125">
+    <td align="center" width="100">
       <a href="./Erbie">
-        <img src="./logos/erbie.png" width="100" height="100" alt="Erbie" />
+        <img src="./logos/erbie.png" width="80" height="80" alt="Erbie" />
       </a>
       <br>
       <a href="./Erbie"> Erbie
       </a>
     </td>
-    <td align="center" width="125">
+    <td align="center" width="100">
       <a href="./Mars Protocol">
-        <img src="./logos/mars.svg" width="100" height="100" alt="Mars Protocol" />
+        <img src="./logos/mars.svg" width="80" height="80" alt="Mars Protocol" />
       </a>
       <br>
       <a href="./Mars Protocol"> Mars Protocol

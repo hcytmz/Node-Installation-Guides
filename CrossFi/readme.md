@@ -48,32 +48,30 @@ tar -xvzf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz
 chmod +x $HOME/bin/crossfid
 mv $HOME/bin/crossfid $HOME/go/bin
 rm -rf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz readme.md $HOME/bin
-
-cd $HOME
-wget https://github.com/crossfichain/crossfi-node/releases/download/v0.3.0-prebuild3/crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz && tar -xf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz
-tar -xvf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz
-chmod +x $HOME/bin/crossfid
-mv $HOME/bin/crossfid $HOME/go/bin
-git clone https://github.com/crossfichain/testnet.git
-rm -rf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz $HOME/bin
-
-
-
+```
 
 2. Set node CLI configuration
-
 ```bash
-echo "export WALLET="wallet"" >> $HOME/.bash_profile
-echo "export MONIKER="haciyatmaz"" >> $HOME/.bash_profile
-echo "export CROSSFI_CHAIN_ID="crossfi-evm-testnet-1"" >> $HOME/.bash_profile
-echo "export CROSSFI_PORT="36"" >> $HOME/.bash_profile
-source $HOME/.bash_profile
-
 crossfid config chain-id crossfi-evm-testnet-1
 crossfid config keyring-backend test
-crossfid config node tcp://localhost:26057
+crossfid config node tcp://localhost:20157
+```
+
+3. Initialize the node (Replace YOUR_MONIKER with your Validator Name)
+```bash
+crossfid init "YOUR_MONIKER" --chain-id crossfi-evm-testnet-1
+```
+
+
+
+
+
+```bash
+
 
 ```
+
+```bash
 
 
 ```
@@ -81,20 +79,12 @@ crossfid config node tcp://localhost:26057
 
 
 ```
-```bash
 
-
-```
-```bash
-
-
-```
 ```bash
 
 
 ```
 
-```bash
 
 
 ```

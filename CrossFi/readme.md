@@ -26,7 +26,7 @@ sudo apt update && sudo apt upgrade -y
 ```
 
 ```bash
-sudo apt install -y curl git jq lz4 build-essential
+sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -y
 ```
 
 2.  Install Go, If Needed
@@ -40,6 +40,7 @@ source .bash_profile
 
 ## :yellow_square: Execute the following command to install the node.
 
+1. Set node CLI configuration
 
 ```bash
 echo "export WALLET="wallet"" >> $HOME/.bash_profile
@@ -50,8 +51,14 @@ source $HOME/.bash_profile
 
 ```
 
+# Download binary
 ```bash
-
+cd $HOME && mkdir -p $HOME/go/bin
+curl -L https://github.com/crossfichain/crossfi-node/releases/download/v0.3.0-prebuild3/crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz > crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz
+tar -xvzf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz
+chmod +x $HOME/bin/crossfid
+mv $HOME/bin/crossfid $HOME/go/bin
+rm -rf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz readme.md $HOME/bin
 
 ```
 ```bash

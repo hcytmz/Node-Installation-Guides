@@ -8,9 +8,9 @@
 
 
 ### :green_square: Minimum Hardware requirements
-| Node Type | CPU | RAM | Storage |
-| --- | --- | --- | --- |
-| Testnet | 6 cores | 8GB | 400GB (NVME) |
+| Node Type | CPU | RAM | Storage | OS |
+| --- | --- | --- | --- | --- |
+| Testnet | 6 cores | 8 GB | 400 GB (NVME) | Ubuntu 20.04 |
 
 
 
@@ -19,20 +19,23 @@
 <br>
 
 ## :yellow_square: Process for deploying nodes for the first time
-1.  First of all you have to install the [limino wallet extension](https://chrome.google.com/webstore/detail/liminowallet/ljgaiedhmdfibdpilgpglddemlbedmhh) / [limino web wallet](https://www.limino.com/#/wallet) and get the private key.
-2.  Prepare the system to installation.
+1.  Prepare the system to installation.
 
 ```bash
-sudo apt-get update && apt-get upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 
 ```bash
-sudo apt-get install wget
+sudo apt install -y curl git jq lz4 build-essential
 ```
 
+2.  Install Go
 
 ```bash
-cd /root
+sudo rm -rf /usr/local/go
+curl -L https://go.dev/dl/go1.21.6.linux-amd64.tar.gz | sudo tar -xzf - -C /usr/local
+echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile
+source .bash_profile
 ```
 ```bash
 sudo apt install docker.io

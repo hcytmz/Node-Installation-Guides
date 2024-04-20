@@ -145,6 +145,10 @@ sudo systemctl restart crossfid && sudo journalctl -u crossfid -f
 
 ## :yellow_square: Useful Commands
 ### :green_square: Key
+Create Wallet Key
+```bash
+crossfid keys add wallet
+```
 Recover Existing Key
 ```bash
 crossfid keys add wallet --recover

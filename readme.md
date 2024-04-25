@@ -1,18 +1,41 @@
-# 🖖 Node Installation Guides by haciyatmaz
+<h1 align="center">Node Installation Guides by haciyatmaz :vulcan_salute:</h1>
+<p align="center">
+	<img height="200" height="auto" src="https://avatars.githubusercontent.com/u/35812219"></br>
+<h3 align="center">In this repository, we will post guides on installing nodes for various projects.</h3></br>
+	</p>
 
-![](https://avatars.githubusercontent.com/u/35812219)\
+<p align="center">
+You can reach me with <a href="https://discord.com/users/401788522765484043">Discord</a> / <a href="https://t.me/haciyatmaz">Telegram</a>  ·  <a href="https://github.com/hcytmz/Node-Installation-Guides/issues">Report Bug / Request Feature</a>   
+	</p>
 
 
-### In this repository, we will post guides on installing nodes for various projects..
-
-\
-
-
-You can reach me with [Discord](https://discord.com/users/401788522765484043) / [Telegram](https://t.me/haciyatmaz) · [Report Bug / Request Feature](https://github.com/hcytmz/Node-Installation-Guides/issues)
-
-## :rocket: List of Testnet Guides <a href="#list-testnets" id="list-testnets"></a>
-
-| <p><a href="../CrossFi/"><img src="../logos/CrossFi.png" alt="Cross Finance"></a><br><a href="../CrossFi/">Cross Finance</a></p> | <p><a href="../Erbie/"><img src="../logos/erbie.png" alt="Erbie"></a><br><a href="../Erbie/">Erbie</a></p> | <p><a href="../Mars%20Protocol/"><img src="../logos/mars.svg" alt="Mars Protocol"></a><br><a href="../Mars%20Protocol/">Mars Protocol</a></p> |
-| :------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
-
-\
+<h2 align="left" id="list-testnets"> :rocket: List of Testnet Guides</h2>
+<table width='100%'>
+  <tr>
+    <td align="center" width="100">
+      <a href="./CrossFi">
+        <img src="./logos/CrossFi.png" width="80" height="80" alt="Cross Finance" />
+      </a>
+      <br>
+      <a href="./CrossFi"> Cross Finance
+      </a>
+    </td>
+    <td align="center" width="100">
+      <a href="./Erbie">
+        <img src="./logos/erbie.png" width="80" height="80" alt="Erbie" />
+      </a>
+      <br>
+      <a href="./Erbie"> Erbie
+      </a>
+    </td>
+    <td align="center" width="100">
+      <a href="./Mars Protocol">
+        <img src="./logos/mars.svg" width="80" height="80" alt="Mars Protocol" />
+      </a>
+      <br>
+      <a href="./Mars Protocol"> Mars Protocol
+      </a>
+    </td>
+  </tr>
+</table>
+<br>
